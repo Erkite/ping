@@ -10,7 +10,7 @@ def ping(host, count):
 
     command = ['ping', parameter, str(count), host]
 
-    return subprocess.call(command) == 0
+    print(subprocess.call(command) == 0)
 
 def getInput():
     try:
