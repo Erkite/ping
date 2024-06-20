@@ -22,4 +22,3 @@ host_name = input("Enter a host/IP: ")
 count = getInput()
 
 ping(host_name, count)
-# King Varun
